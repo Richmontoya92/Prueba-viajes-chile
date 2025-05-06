@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
@@ -6,6 +9,12 @@ body {
   
   section {
     padding-top: 60px;
+  }
+
+  .carousel-item img{
+    width: 100%;
+    height: 400px;  
+    object-fit: cover;  
   }
   
   .card img {
@@ -17,6 +26,7 @@ body {
     border-radius: 0;
     background-color: black;
     color: white;
+    font-family: 'roboto';
   }
 
   #contacto {
@@ -30,3 +40,5 @@ body {
   #foot{
     text-align: start;
   }
+
+  
