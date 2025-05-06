@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Viajes Chile</title>
-
+  <link rel="icon" href="assets/img/viajes.svg" type="image/x-icon">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -20,15 +21,16 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Viajes Chile</a>
+      <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="Icono" width="24" class="me-2">Viajes Chile</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navContent">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#presentacion">Presentación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#carouselExample">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#quienes-somos">Quiénes Somos?</a></li>
           <li class="nav-item"><a class="nav-link" href="#destacados">Destacados</a></li>
           <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
@@ -36,7 +38,6 @@
     </div>
   </nav>
 
-  <!-- Carousel -->
   <header id="carouselExample" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -57,59 +58,118 @@
     </button>
   </header>
 
-  <!-- Presentación -->
-  <section id="presentacion" class="container text-center my-5 d-none d-md-block">
-    <i class="fas fa-globe fa-2x mb-3"></i>
-    <h2>Bienvenido a Viajes Chile</h2>
-    <p>Lorem ipsum dolor sit amet...</p>
-    <p>Viaja por todo Chile con nosotros...</p>
-    <p>Explora, sueña, descubre...</p>
-  </section>
 
-  <!-- Destacados -->
-  <section id="destacados" class="container my-5">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="card">
-          <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
+<section id="quienes-somos" class="py-5" style="background-color: #000; color: #fff;">
+  <div class="container">
+    <h2 class="text-center mb-5">¿QUIÉNES SOMOS?</h2>
+    <div class="row text-white">
+
+      <!-- Tarjeta 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card bg-transparent border-0 text-white h-100">
+          <div class="card-header text-center py-1" style="background-color: #00cfff;">
+            <i class="fas fa-plane fa-2x text-white"></i>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Destino 1</h5>
-            <p class="card-text">Descripción breve...</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, 
+              ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt obcaecati ab nihil placeat laborum assumenda exercitationem 
+              repellendus inventore fuga aspernatur eos debitis, sed, eaque distinctio accusantium velit quidem? Sequi, eaque.
+            </p>
           </div>
         </div>
-
-        <div class="card">
-            <img src="assets/img/card2.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Destino 1</h5>
-              <p class="card-text">Descripción breve...</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="assets/img/card3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Destino 1</h5>
-              <p class="card-text">Descripción breve...</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Destino 1</h5>
-              <p class="card-text">Descripción breve...</p>
-            </div>
-          </div>
       </div>
-    
+
+      <!-- Tarjeta 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card bg-transparent border-0 text-white h-100">
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, 
+              ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolor neque cupiditate numquam earum rem 
+              officiis nam corrupti. Accusantium doloremque odit expedita, itaque facilis voluptatibus nostrum impedit nobis necessitatibus dignissimos.
+            </p>
+          </div>
+          <div class="card-header text-center py-1" style="background-color: #00cfff;">
+            <i class="fas fa-mountain fa-2x text-white"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card bg-transparent border-0 text-white h-100">
+          <div class="card-header text-center py-1" style="background-color: #00cfff;">
+            <i class="fas fa-cogs fa-2x text-white"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, 
+              ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, voluptatum modi nulla dicta autem non! 
+              Voluptate vitae, explicabo porro aperiam cum quibusdam hic quasi ut consequatur nisi incidunt fugiat illo?
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
-    
-  </section>
+  </div>
+</section>
+
+
+<section id="destacados" class="py-5" style="background-color: #000;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: white;">DESTACADOS</h2>
+    <div class="row g-3">
+      <!-- Tarjetas -->
+      <div class="col-md-3 col-12">
+        <div class="card">
+          <img src="assets/img/card1.jpg" class="card-img-top" alt="..." style="object-fit: cover; height: 200px;">
+          <div class="card-body bg-info text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque perferendis qui consequatur nisi autem sit, eaque libero beatae natus, non optio nobis dolorem repudiandae, commodi minima dolore cupiditate laboriosam dolorum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card">
+          <img src="assets/img/card2.jpg" class="card-img-top" alt="..." style="object-fit: cover; height: 200px;">
+          <div class="card-body bg-info text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perferendis totam sequi voluptatem aperiam fugit ratione veritatis omnis! Quibusdam corporis ab voluptatibus asperiores veniam dicta harum incidunt voluptatem.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card">
+          <img src="assets/img/card3.jpg" class="card-img-top" alt="..." style="object-fit: cover; height: 200px;">
+          <div class="card-body bg-info text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla consectetur, omnis dolore saepe vel qui accusamus quidem quos ducimus, sint ipsam illo cupiditate pariatur distinctio necessitatibus dolorum provident. Perspici.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-12">
+        <div class="card">
+          <img src="assets/img/card4.jpg" class="card-img-top" alt="..." style="object-fit: cover; height: 200px;">
+          <div class="card-body bg-info text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum nisi laboriosam assumenda iure quae id, at delectus. Eos amet illum placeat, neque aspernatur voluptatem incidunt officia facilis reiciendis quidem totam.Offic.Officiis perferendis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Formulario -->
-  <section id="contacto" class="container my-5">
-    <h2>Contáctanos</h2>
+  <section id="contacto" class="my-0 text-white" style="background-color: #000; padding: 40px 0;">
+  <div class="container">
+    <h2 style="text-align: center; padding-bottom: 20px;">CONTÁCTANOS</h2>
     <form>
       <div class="mb-3">
         <label for="nombre" class="form-label">Nombre</label>
@@ -123,19 +183,27 @@
         <label for="mensaje" class="form-label">Mensaje</label>
         <textarea class="form-control" id="mensaje" rows="4"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <div class="text-end">
+        <button type="submit" class="btn" style="background-color: #00cfff; border: none; color: white;">Enviar</button>
+      </div>
     </form>
-  </section>
+  </div>
+</section>
+
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-      <p>Síguenos en redes sociales</p>
-      <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
-      <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-      <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+  <footer class="bg-dark text-white text-center">
+    <div class="container-fluid d-flex justify-content-between align-items-center" style="background-color: #00cfff; padding: 20px;">
+      <p id="foot" class="mb-0">VIAJES CHILE</p>
+      <div>
+        <a href="https://github.com/" target="_blank" class="text-white me-3" style="font-size: 2em;"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" class="text-white me-3" style="font-size: 2em;"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" class="text-white me-3" style="font-size: 2em;"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/" target="_blank" class="text-white" style="font-size: 2em;"><i class="fab fa-x"></i></a>
+      </div>
     </div>
   </footer>
+  
 
   <!-- Bootstrap JS y script personalizado -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

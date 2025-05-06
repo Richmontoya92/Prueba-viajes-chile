@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+  }
+  
+  section {
+    padding-top: 60px;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    background-color: black;
+  }
+  #destacados {
+    border-radius: 0;
+    background-color: black;
+    color: white;
+  }
+
+  #contacto {
+    background-color:black;
+  }
+  
+  footer i {
+    font-size: 1.5rem;
+  }
+
+  #foot{
+    text-align: start;
+  }
