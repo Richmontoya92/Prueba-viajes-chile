@@ -3,12 +3,11 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  // Añadir el tooltip con jQuery
+ 
   $('#enviarButton').attr('title', '¡VIAJA CON NOSOTROS!');
   
-  // Mostrar la alerta al hacer clic en el botón
   $('#enviarButton').click(function(e) {
-    e.preventDefault(); // Evitar que el formulario se envíe si es un formulario
+    e.preventDefault(); 
     alert('Nos comunicaremos pronto');
   });
 });
