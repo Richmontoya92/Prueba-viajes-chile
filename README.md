@@ -75,3 +75,7 @@ La agencia **Viajes Chile** solicita la creación de su *landing page*, que teng
 - Inicializar **GIT** para versionar el proyecto localmente, realizando **5 o más commits**.  
 - Implementar la creación de **repositorio remoto en GitHub** para el versionamiento del proyecto.  
 - Crear la página en **GitHub Pages**.
+
+### 6. Espero me haya quedado bien u.u
+
+- No ha sido fácil pero aquí vamos
